@@ -2,7 +2,7 @@
 /*==== GENERAL ====*/
 
 .header {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center ;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') repeat 70% center;
   height: 100vh;
   width: 100vw;
   text-align: center;
@@ -16,7 +16,6 @@
 
 #main-info-text {
   margin: 0 auto;
-  width: 25em;
   padding: .625rem;
   color: hsla(0,0%,100%,.9);
   background: hsla(100,0%,0%,.5);
@@ -256,4 +255,96 @@ footer {
 
 #footer-content small {
   line-height: 1.5;
+}
+
+/*Header  media settings*/
+
+@media (min-width: 768px) {
+
+  .header {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  #main-info-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  #main-info-text h1 {
+    font-size: 7rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .header-tagline {
+    text-transform: uppercase;
+  }
+
+}
+
+/*Locations media settings*/
+
+@media (min-width: 768px) {
+
+  .alapinfo {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .alapinfo::after {
+    display: none;
+  }
+
+}
+
+/*Programs media settings*/
+
+@media (min-width: 768px) {
+
+  #program_details {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+}
+
+/*Q-and-A media settings*/
+
+@media (min-width: 768px) {
+
+  .questions {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+
+  .questions::after {
+    display: none;
+  }
+
+  .questions h3 {
+    text-align: left;
+  }
+
+}
+
+/*Footer media settings*/
+
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
 }
