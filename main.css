@@ -141,3 +141,32 @@ h3 {
   margin: 1.5rem auto;
   background-color: #444349;
 }
+
+/* =============================
+
+        PROGRAM STYLES
+
+=============================*/
+
+#program {
+  width: 100vw;
+  text-align: left;
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+}
+
+#program h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1rem; /* To account for the unequal margins compared to the previous section. */
+  text-align: center;
+}
+
+#program p {
+  font-style: italic;
+}
+
+#program ul {
+  letter-spacing: .025rem;
+}
+
