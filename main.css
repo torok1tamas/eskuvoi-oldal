@@ -114,3 +114,30 @@ h3 {
   font-size: 1.5rem;
 }
 
+/* =============================
+
+      LOCATIONS STYLES
+
+=============================*/
+
+.alapinfo img {
+  height: 7.5rem;
+}
+
+.alapinfo h3 {
+  font-weight: 700;
+}
+
+.alapinfo div {
+  font-family: 'Muli', sans-serif;
+}
+
+
+.alapinfo::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
