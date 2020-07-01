@@ -1,0 +1,9 @@
+cover class helyett nekem header class a header
+hero-text class helyett nekem id main info a főoldal div
+nekem van div content, ami a header-en és a footer-en kívül mindent tartalmaz
+section class="locations" helyett nekem       <section id="locations">
+<div class="blurb"> helyett nekem <div class="alapinfo">
+<section class="program"> helyett nekem       <section id="program"> és nekem va <div id="program-details"> is
+<section class="gifts"> helyett nekem <section id="gifts"> és nekem va <div id="gifts-details"> is
+<section class="faq"> helyett nekem       <section id="q-and-a">
+<div class="question-group"> helyett nekem         <div class="questions">
