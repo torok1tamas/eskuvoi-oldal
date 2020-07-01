@@ -2,7 +2,7 @@
 /*==== GENERAL ====*/
 
 .header {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center ;
   height: 100vh;
   width: 100vw;
   text-align: center;
@@ -223,4 +223,37 @@ h3 {
 
 .q-and-a-regular {
   margin-bottom: 1.5rem;
+}
+
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+
+footer {
+  background: #606060;
+  color: #fff;
+  font-size: 0.7em;
+  text-align: center;
+  height: 10vh;
+  width: 100vw;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  padding: .5rem 1rem;
+    font-weight: 700;
+}
+
+#footer-content {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+#footer-content p {
+  margin-bottom: 0;
+}
+
+#footer-content small {
+  line-height: 1.5;
 }
