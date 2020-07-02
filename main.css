@@ -65,7 +65,7 @@
 body {
   background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.125rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   color: #444349;
 }
@@ -204,6 +204,11 @@ h3 {
 #q-and-a p {
   font-family: 'Muli', sans-serif;
   text-align: left;
+}
+
+.questions {
+  padding: 1rem;
+  font-size: 1rem;
 }
 
 .questions::after {
